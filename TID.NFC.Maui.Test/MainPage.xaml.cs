@@ -1,4 +1,6 @@
-﻿namespace TID.NFC.Maui.Test;
+﻿using System.Text;
+
+namespace TID.NFC.Maui.Test;
 
 public partial class MainPage : ContentPage
 {
