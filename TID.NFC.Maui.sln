@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 25.0.1706.8
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TID.NFC.Maui", "TID.NFC.Maui\TID.NFC.Maui.csproj", "{392C3AA2-8892-41BD-AB23-1672D26F12D1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TID.NFC.Maui.Test", "TID.NFC.Maui.Test\TID.NFC.Maui.Test.csproj", "{832C115B-ECCF-4FAD-9715-EC4004FA7C2A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{392C3AA2-8892-41BD-AB23-1672D26F12D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{392C3AA2-8892-41BD-AB23-1672D26F12D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{392C3AA2-8892-41BD-AB23-1672D26F12D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{392C3AA2-8892-41BD-AB23-1672D26F12D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{832C115B-ECCF-4FAD-9715-EC4004FA7C2A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{832C115B-ECCF-4FAD-9715-EC4004FA7C2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{832C115B-ECCF-4FAD-9715-EC4004FA7C2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{832C115B-ECCF-4FAD-9715-EC4004FA7C2A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2D789960-9473-4EAF-8F00-412657C3FAF2}
+	EndGlobalSection
+EndGlobal
