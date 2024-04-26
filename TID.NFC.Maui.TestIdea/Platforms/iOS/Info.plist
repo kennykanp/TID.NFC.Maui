@@ -28,20 +28,5 @@
 	</array>
 	<key>XSAppIconAssets</key>
 	<string>Assets.xcassets/appicon.appiconset</string>
-
-	<key>com.apple.developer.nfc.readersession.iso7816.select-identifiers</key>
-	<array>
-		<string>D2760000850101</string>
-	</array>
-
-	<key>NFCReaderUsageDescription</key>
-	<string>Enable NFC scanning to detect NFC tag</string>
-
-	<key>com.apple.developer.nfc.readersession.formats</key>
-	<array>
-        <string>NDEF</string>
-        <string>TAG</string>
-    </array>
-
 </dict>
 </plist>

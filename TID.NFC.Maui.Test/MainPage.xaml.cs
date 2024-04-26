@@ -56,12 +56,12 @@ public partial class MainPage : ContentPage
 
         if (CrossNFC.IsSupported)
         {
-            if (!CrossNFC.Current.IsAvailable)
-                await ShowAlert("NFC is not available");
+            // if (!CrossNFC.Current.IsAvailable)
+            //     await ShowAlert("NFC is not available");
 
-            NfcIsEnabled = CrossNFC.Current.IsEnabled;
-            if (!NfcIsEnabled)
-                await ShowAlert("NFC is disabled");
+            // NfcIsEnabled = CrossNFC.Current.IsEnabled;
+            // if (!NfcIsEnabled)
+            //     await ShowAlert("NFC is disabled");
 
             if (DeviceInfo.Platform == DevicePlatform.iOS)
                 _isDeviceiOS = true;

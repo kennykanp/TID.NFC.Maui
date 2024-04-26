@@ -77,7 +77,7 @@ public class NFCImplementation : NFCTagReaderSessionDelegate, INFC
         _isWriting = false;
         _isFormatting = false;
 
-        NfcSession = new NFCTagReaderSession(NFCPollingOption.Iso14443 | NFCPollingOption.Iso15693, this, DispatchQueue.CurrentQueue)
+        NfcSession = new NFCTagReaderSession(pollingOption: NFCPollingOption.Iso14443 | NFCPollingOption.Iso15693 | NFCPollingOption.Iso18092 | NFCPollingOption.Pace,  this, DispatchQueue.CurrentQueue)
         {
             AlertMessage = Configuration.Messages.NFCDialogAlertMessage
         };
